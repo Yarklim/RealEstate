@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Residential & office spaces">
 	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 	<link rel="stylesheet" href="./css/style.css">
 	<title>Real Estate</title>
 </head>
@@ -41,10 +42,79 @@
 		</header>
 
 <!-- Main -->
-		<main class="page"></main>
+		<main class="page">
+			<!-- Hero -->
+			<section class="page__main main-block">
+				<div class="main-block__container">
+					<div class="main-block__body body-main-block">
+
+						<article class="body-main-block__content content-main-block">
+
+							<div class="content-main-block__body">
+								<h1 class="content-main-block__title">RESIDENTIAL & OFFICE SPACES</h1>
+								<h2 class="content-main-block__subtitle">Smart Living Style	for Smart People</h2>
+								<p class="content-main-block__text">Much did had call new drew that kept. Limits expect wonder law she. Now has you	views woman noisy match money rooms.</p>
+							</div>
+							
+							<form action="#" class="content-main-block__form form-main-block">
+								<input placeholder="Enter Zipcode to search properties" type="text" class="form-main-block__input">
+								<button type="submit" class="form-main-block__button">Search Now!</button>
+							</form>
+
+						</article>
+
+						<!-- Slider main container -->
+						<div class="body-main-block__slider slider-main-block swiper">
+							<!-- Additional required wrapper -->
+							<div class="slider-main-block__wrapper swiper-wrapper">
+								<!-- Slides -->
+								<div class="slider-main-block__slide swiper-slide">
+									<img src="./img/slider/slider-image1-optim.jpg" alt="Photo building 1" width="603" height="573">
+								</div>
+								<div class="slider-main-block__slide swiper-slide">
+									<img src="./img/slider/slider-image2-optim.jpg" alt="Photo building 2" width="603" height="573">
+								</div>
+								<div class="slider-main-block__slide swiper-slide">
+									<img src="./img/slider/slider-image3-optim.jpg" alt="Photo building 3" width="603" height="573">
+								</div>
+							</div>
+							<!-- If we need navigation buttons -->
+							<div class="slider-main-block__arrow swiper-button-prev"></div>
+							<div class="slider-main-block__arrow swiper-button-next"></div>
+						</div>
+
+					</div>
+					<div class="main-block__partners partners-main-block">
+						<h3 class="partners-main-block__label">Our Amazing Partners</h3>
+						<div class="partners-main-block__items">
+							<div class="partners-main-block__item">
+								<img src="./img/logo/buzz-optim.svg" alt="Logo Buzz" width="71">
+							</div>
+							<div class="partners-main-block__item">
+								<img src="./img/logo/chase-optim.svg" alt="Logo Chase" width="97.42">
+							</div>
+							<div class="partners-main-block__item">
+								<img src="./img/logo/microsof-optim.svg" alt="Logo Microsoft" width="94.18">
+							</div>
+							<div class="partners-main-block__item">
+								<img src="./img/logo/gucc-optim.svg" alt="Logo Gucc" width="96">
+							</div>
+							<div class="partners-main-block__item">
+								<img src="./img/logo/airbnb-optim.svg" alt="Logo AirBnB" width="85">
+							</div>
+							<div class="partners-main-block__item">
+								<img src="./img/logo/uber-optim.svg" alt="Logo Uber" width="75">
+							</div>
+					</div>
+				</div>
+			</section>
+		</main>
 
 <!-- Footer -->
 		<footer class="footer"></footer>
 	</div>
+	
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script src="./js/script.js"></script>
 </body>
 </html>
