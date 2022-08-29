@@ -8,3 +8,19 @@ const swiper = new Swiper('.slider-main-block', {
 		prevEl: '.slider-main-block__arrow.swiper-button-prev',
 	},
 });
+
+// Tabs
+const tabNavItems = document.querySelectorAll('.tabs-deals__button');
+const tabItems = document.querySelectorAll('.item-tabs');
+document.addEventListener("click", function (e) {
+	const targetElement = e.target;
+	let currentActiveIndex = null;
+	if (targetElement.closest('.tabs-deals__button')) {
+		tabNavItems.forEach((tabNavItems, index) => {
+			if (tabNavItems.classList.contains('active')) {
+				currentActiveIndex = index;
+			}
+			// tabNavItems.classList.remove('active');
+		});
+	}
+});
