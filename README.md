@@ -1,10 +1,10 @@
 # RealEstate
 Demo Website layout
 
-Adaptive
-Semantic
+Adaptive / 
+Semantic / 
 Accessibility
 
-HTML
-CSS
+HTML / 
+CSS / 
 JS
