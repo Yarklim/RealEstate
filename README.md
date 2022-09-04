@@ -1,5 +1,5 @@
 # RealEstate
-Demo Website layout
+Website layout
 
 Adaptive / 
 Semantic / 
